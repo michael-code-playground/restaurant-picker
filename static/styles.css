@@ -1,0 +1,94 @@
+/* Reset some default styling */
+body, h1, p, div, button, input {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #444;
+}
+
+p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.restaurant-name {
+    font-size: 22px;
+    font-weight: bold;
+    color: #33C3F0;
+    padding: 10px;
+    border: 2px solid #33C3F0;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+}
+
+.button {
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #33C3F0;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-bottom: 10px;
+}
+
+.button:hover {
+    background-color: #1EAEDB;
+}
+
+/* Suggestion Section Styles */
+.suggestion-section {
+    margin-top: 50px;
+}
+
+.suggestion-input {
+    width: 80%;
+    padding: 8px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.suggestion-input::placeholder {
+    color: #999;
+}
+
+.suggestion-section p {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #666;
+}
+
+a {
+    text-decoration: none;
+}

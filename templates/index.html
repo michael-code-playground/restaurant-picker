@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Picker in Lisbon</title>
+    <link rel="stylesheet" href="/static/styles.css">
+    <link href='//fonts.googleapis.com/css?family=Raleway:400,300,600' rel='stylesheet' type='text/css'>
+
+</head>
+<body>
+    <div class="container">
+        <h1>Restaurant Picker in Lisbon</h1>
+        <p>Your place for dinner today is</p>
+        <div id="restaurant-name" class="restaurant-name">
+            {{restaurant}}
+        </div>
+        
+        <a href="/" class="button">Pick another</a>
+
+        <!-- New Suggestion Section -->
+        <form method="get">
+        <div class="suggestion-section">
+            <p>Have a suggestion?</p>
+            <input type="text" id="suggestion" class="suggestion-input" name="suggestion" placeholder="Enter your suggestion">
+            <button id="suggestion-button" class="button">Submit</button>
+            <div id="restaurant-name" class="restaurant-name">
+                {{result}}
+            </div>
+        
+        </div>
+        </form>
+    </div>
+
+   
+</body>
+</html>
