@@ -35,7 +35,7 @@ def main():
     except:
         pass
         
-    return render_template('index.html', restaurant = random_value)
+    return render_template('index.html', restaurant = random_value, result = "")
     
 if __name__ == "__main__":
     app.run(host="127.0.0.1", port=8080, debug=True)

@@ -24,7 +24,7 @@
             <p>Have a suggestion?</p>
             <input type="text" id="suggestion" class="suggestion-input" name="suggestion" placeholder="Enter your suggestion">
             <button id="suggestion-button" class="button">Submit</button>
-            <div id="restaurant-name" class="restaurant-name">
+            <div id="restaurant-name" class="{% if result == 'Thanks for the recommendation!' or result == '' %}restaurant-name{% else %}restaurant-negative-result{% endif %}">
                 {{result}}
             </div>
         
