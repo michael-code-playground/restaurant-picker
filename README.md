@@ -7,4 +7,4 @@ Another feauture is to allow users put their own suggestions. I set up Google Ma
 
 I extended the validation feature by comparing returned coordinates to those of Lisbon. So that I can filter out the results and exclude spots whose name match, but the location differs. Specificyng location bias in requests is not always accurate. 
 
-Application is deployed on Google Cloud, where I used the app engine service. 
+Application is deployed on Google Cloud, where I used the app engine service (https://restaurant-picker-dot-the-method-427521-p2.uc.r.appspot.com/) 
