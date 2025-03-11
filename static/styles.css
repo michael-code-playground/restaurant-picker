@@ -103,3 +103,28 @@ p {
 a {
     text-decoration: none;
 }
+
+.feedback-link {
+    position: absolute;
+    bottom: 20px;
+    /*right: 20px;*/
+    left: 20px;
+    font-size: 14px;
+    color: #33C3F0;
+    background-color: #fff;
+    padding: 5px 10px;
+    border: 1px solid #33C3F0;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s;
+}
+
+.feedback-link a {
+    color: #33C3F0;
+    text-decoration: none;
+}
+
+.feedback-link:hover {
+    background-color: #1EAEDB;
+    color: #fff;
+}

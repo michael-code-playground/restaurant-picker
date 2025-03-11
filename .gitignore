@@ -1,1 +1,6 @@
 the-method-427521-p2-74db9b4d1aa9.json
+limit_req.py
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
